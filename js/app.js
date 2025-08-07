@@ -2,7 +2,7 @@ var $ = Dom7;
 
 var device = Framework7.getDevice();
 var app = new Framework7({
-  name: 'Male Specimen Coverage', // App name
+  name: 'Male Specimen+', // App name
   theme: 'ios', // Automatic theme detection
   colors: {
     primary: '#ceaa42',
