@@ -1,0 +1,22 @@
+.img-fade-in {
+  opacity: 0;
+  transition: opacity .7s ease-in;
+}
+
+.img-fade-in.loaded {
+  opacity: 1;
+}
+
+.img-responsive{
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-gradient {
+  position: relative;
+  display: block;
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%); /* For WebKit browsers */
+}

@@ -1,0 +1,53 @@
+/* Material Icons Font (for MD theme) */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'),
+    url(../fonts/material-icons.woff2) format('woff2'),
+    url(../fonts/material-icons.woff) format('woff');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+    font-family: 'Compose';
+    src: url('../fonts/Compose-Bold.eot');
+    src: local('../fonts/Compose Bold'), local('Compose-Bold'),
+        url('../fonts/Compose-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Compose-Bold.woff2') format('woff2'),
+        url('../fonts/Compose-Bold.woff') format('woff'),
+        url('../fonts/Compose-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+    @font-face {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), url('../fonts/Montserrat-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Bold'), url('../fonts/Montserrat-Bold.woff') format('woff');
+    }
